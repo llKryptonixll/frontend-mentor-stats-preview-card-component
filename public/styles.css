@@ -623,6 +623,14 @@ video {
   height: 100%;
 }
 
+.h-4\/6{
+  height: 66.666667%;
+}
+
+.h-3\/6{
+  height: 50%;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -633,6 +641,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-4\/6{
+  width: 66.666667%;
 }
 
 .grow{
@@ -801,6 +813,10 @@ video {
 
   .xl\:h-screen{
     height: 100vh;
+  }
+
+  .xl\:h-4\/6{
+    height: 66.666667%;
   }
 
   .xl\:grid-cols-2{
