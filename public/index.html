@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Stats preview card component</title>
+
+</head>
+<body class="overflow-x-hidden">
+    
+    <!-- main container -->
+    <div class="grid place-items-center w-screen xl:h-screen md:h-custom h-small bg-[color:var(--main-background-color)]">
+
+        <!-- card -->
+        <div class="bg-[color:var(--card-background-color)] w-5/6 h-5/6 grid xl:grid-cols-2 xl:grid-rows-1 sm:grid-rows-3 grid-rows-6 xl:rounded-xl rounded-b-xl">
+            <!-- left item text-->
+            <div class="grid sm:p-14 p-5 row-span-5 items-center md:text-left text-center">
+                <h1 class="text-[color:var(--main-heading-color)] sm:text-5xl text-3xl font-bold">
+                    Get <span class="text-[color:var(--accent-color)]">insights</span> that help your buisiness grow. 
+                </h1>
+                <p class="text-[color:var(--main-paragraph-color)]">
+                    Discover the benefits of data analytics and make <br> better desicions regarding revenue, customer <br class=""> experience, and overall efficiency. 
+                </p>
+                <div class="flex sm:gap-20 gap-10 md:justify-start justify-center md:flex-row flex-col">
+                    <div>
+                        <h2 class="text-[color:var(--main-heading-color)] text-3xl font-bold">10k+</h2>
+                        <h3 class="text-[color:var(--stat-heading-color)] font-medium">COMPANIES</h3>
+                    </div>
+                    <div>
+                        <h2 class="text-[color:var(--main-heading-color)] text-3xl font-bold">314</h2>
+                        <h3 class="text-[color:var(--stat-heading-color)] font-medium">TEMPLATES</h3>
+                    </div>
+                    <div>
+                        <h2 class="text-[color:var(--main-heading-color)] text-3xl font-bold">12M+</h2>
+                        <h3 class="text-[color:var(--stat-heading-color)] font-medium">QUERIES</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- right item image-->
+            <div class="bg-[url('/public/images/image-header-desktop.jpg')] bg-cover xl:bg-center xl:order-last order-first relative xl:rounded-r-xl xl:rounded-tl-none rounded-t-xl">
+                <!-- purple image layer -->
+                <div class="absolute w-full h-full bg-[color:var(--accent-color)] opacity-60 saturate-200 brightness-40 xl:rounded-r-xl xl:rounded-tl-none rounded-t-xl"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
