@@ -22,7 +22,7 @@ module.exports = {
       },
       height: {
         'custom': '1000px',
-        'small': '1300px'
+        'small': '1200px'
       },
       brightness: {
         40: '.40',

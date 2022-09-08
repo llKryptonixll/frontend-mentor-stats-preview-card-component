@@ -603,6 +603,10 @@ video {
   grid-row: span 5 / span 5;
 }
 
+.row-span-2{
+  grid-row: span 2 / span 2;
+}
+
 .flex{
   display: flex;
 }
@@ -612,23 +616,19 @@ video {
 }
 
 .h-small{
-  height: 1300px;
+  height: 1200px;
 }
 
 .h-5\/6{
   height: 83.333333%;
 }
 
-.h-full{
-  height: 100%;
-}
-
 .h-4\/6{
   height: 66.666667%;
 }
 
-.h-3\/6{
-  height: 50%;
+.h-full{
+  height: 100%;
 }
 
 .w-screen{
@@ -641,10 +641,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-4\/6{
-  width: 66.666667%;
 }
 
 .grow{
@@ -770,6 +766,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:row-span-1{
+    grid-row: span 1 / span 1;
+  }
+
   .sm\:grid-rows-3{
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
@@ -809,6 +809,10 @@ video {
 @media (min-width: 1280px){
   .xl\:order-last{
     order: 9999;
+  }
+
+  .xl\:mb-20{
+    margin-bottom: 5rem;
   }
 
   .xl\:h-screen{
