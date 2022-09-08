@@ -18,7 +18,7 @@ module.exports = {
         "Inter": ["Inter", "sans-serif"]
       },
       backgroundImage: {
-        "image-header" : "url('/public/images/image-header-desktop.jpg')"
+        "image-header" : "url('images/image-header-desktop.jpg')"
       },
       height: {
         'custom': '1000px',
