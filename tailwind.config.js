@@ -20,12 +20,12 @@ module.exports = {
       backgroundImage: {
         "image-header" : "url('images/image-header-desktop.jpg')"
       },
-      height: {
-        'custom': '1000px',
-        'small': '1200px'
-      },
       brightness: {
         40: '.40',
+      },
+      minHeight: {
+        '700px': '700px',
+        '900px': '900px'
       }
     },
   },
